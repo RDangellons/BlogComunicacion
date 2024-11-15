@@ -313,4 +313,52 @@ footer {
 
 /*fin*/
 
+/*Referencias*/
+
+/* Estilo para las notas al pie */
+sup a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+sup a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de referencias */
+#references {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#references h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #0077cc;
+}
+
+#references ol {
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+#references li {
+    margin-bottom: 15px;
+}
+
+#references a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+#references a:hover {
+    text-decoration: underline;
+}
+/*Fin referencias*/
+
 
